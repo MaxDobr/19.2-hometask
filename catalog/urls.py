@@ -5,10 +5,10 @@ from catalog.views import contacts
 
 app_name = CatalogConfig.name
 
-app_cat = CatalogConfig.name
 
 urlpatterns = [
-    path('', home, name='home')
+    path('', home, name='home'),
+    path('', contacts, name='contacts')
 
 ]
 
